@@ -5,34 +5,55 @@ import {
 } from '@chakra-ui/react';
 import ReactDOM from 'react-dom';
 import ResearchRolesNational from './ResearchRolesNational';
+import ResearchRolesRegional from './ResearchRolesRegional';
 import AcademicRolesNational from './AcademicRolesNational';
+import AcademicRolesRegional from './AcademicRolesRegional';
+import StartupDocs from './Startup';
+import IndustryDocs from './Industry';
+// import StartupDocs from '../Startup-Excellence/Startup';
+// import IndustryDocs from '../Industry-Excellance/Industry.js';
 
 export default function AwardCategories() {
 
     const onChange = (event) => {
+        var optionsElement = document.getElementById("SelectOptions");
+        var uploadElement = document.getElementById("UploadDocs");
+        // uploadElement.style.visibility = "hidden";
         switch (event.target.value) {
             case "research-N":
+                optionsElement.style.visibility = "visible";
+                // uploadElement.style.visibility = "visible";
                 ReactDOM.render(<ResearchRolesNational />, document.getElementById("SelectOptions"));
                 break;
 
             case "research-R":
-                ReactDOM.render(<ResearchRolesNational />, document.getElementById("SelectOptions"));
+                optionsElement.style.visibility = "visible";
+                // uploadElement.style.visibility = "visible";
+                ReactDOM.render(<ResearchRolesRegional />, document.getElementById("SelectOptions"));
                 break;
 
             case "academic-N":
+                optionsElement.style.visibility = "visible";
+                // uploadElement.style.visibility = "visible";
                 ReactDOM.render(<AcademicRolesNational />, document.getElementById("SelectOptions"));
                 break;
 
             case "academic-R":
-                ReactDOM.render(<AcademicRolesNational />, document.getElementById("SelectOptions"));
+                optionsElement.style.visibility = "visible";
+                // uploadElement.style.visibility = "visible";
+                ReactDOM.render(<AcademicRolesRegional />, document.getElementById("SelectOptions"));
                 break;
 
             case "industry":
-                ReactDOM.render(<AcademicRolesNational />, document.getElementById("SelectOptions"));
+                optionsElement.style.visibility = "hidden";
+                // uploadElement.style.visibility = "visible";
+                ReactDOM.render(<IndustryDocs />, document.getElementById("UploadDocs"));
                 break;
 
             case "startup":
-                ReactDOM.render(<AcademicRolesNational />, document.getElementById("SelectOptions"));
+                optionsElement.style.visibility = "hidden";
+                // uploadElement.style.visibility = "visible";
+                ReactDOM.render(<StartupDocs />, document.getElementById("UploadDocs"));
                 break;
 
         }

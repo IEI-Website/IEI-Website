@@ -13,6 +13,8 @@ var UploadFile = (props) => {
           <FormControl>
           <FormLabel>{props.label}</FormLabel>
           <Input type='file' />
+          <br/>
+          <br/>
           </FormControl>
     );
 }

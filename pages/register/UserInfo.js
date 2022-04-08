@@ -14,19 +14,8 @@ import {
 } from '@chakra-ui/react';
 import CommonDocs from './CommonDocs.js';
 import AwardCategories from './components/AwardCategories.js';
-import ResearchRolesNational from './components/ResearchRolesNational.js';
-import StudentDocs from './Research-Excellence/Students.js';
-import TeacherDocs from './Research-Excellence/Teachers.js';
 
 const Details = () => {
-
-  function selectRole() {
-    var role = document.getElementById("applicant-role").value;
-    var award = document.getElementById("award-category").value;
-    if (role === "student") {
-      <StudentDocs />
-    }
-  }
 
   // const bgColor = useColorModeValue('gray.50', 'whiteAlpha.50');
   const secondaryTextColor = 'black';
@@ -67,9 +56,11 @@ const Details = () => {
         </GridItem>
 
         <GridItem colSpan={2}>
+          <CommonDocs/>
           <AwardCategories/>
         </GridItem>
         <br/>
+
 
         <GridItem id="SelectOptions" colSpan={2}>
         </GridItem>
