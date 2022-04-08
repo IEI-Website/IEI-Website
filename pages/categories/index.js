@@ -50,22 +50,16 @@ export default function Home() {
       7.Conference paper presentation certificates if any <br/>
       8.  Any other achievement <br/>
       9. Recommendation by Supervisor for PhD Scholar <br/>
-
       </Text>
       <br/>
       <br/>
       <br/>
-      <Text  fontSize="xl" color="white" marginStart={"350"}>
-      <Text  fontSize="2xl" fontWeight="bold">
+      
+      <Text  fontSize="2xl"color="white" marginStart={"350"} fontWeight="bold">
       (b)	Teaching Faculty <br/>
       </Text>
-      <Text  fontSize="xl" color="white" marginStart={"50"}>
-         -	Students (UG) <br/>
-         -	Students (PG)<br/>
-         -	Students (PhD)<br/>
-         </Text>
-         <br/>
-         Entry Level Criteria:<br/>
+      <Text  fontSize="xl" color="white" marginStart={"350"}>
+      Entry Level Criteria:<br/>
           ●	Faculty should be Doctorate in his/her discipline <br/>
           ●	The research carried out must be at the affiliated Institute and should not be the PhD research <br/>
           ●	This award is NOT for the overall career research but is for particular research that has been recently completed or on the verge of completion. <br/>
@@ -84,8 +78,6 @@ export default function Home() {
       7. Research and consultancy project details if any <br/>
       8.  Any other achievement (prizes, award received) <br/>
       9. Research promotion activities if any (Endorsement letter by HOD) <br/>
-
-
       </Text>
       <br/>
       <br/>
