@@ -13,8 +13,16 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 import CommonDocs from './CommonDocs.js';
-
+import StudentDocs from './Research-Excellence/Students.js/index.js';
+import TeacherDocs from './Research-Excellence/Teachers.js/index.js';
 const Details = () => {
+  function selectRole(){
+    var role = document.getElementById("applicant-role").value;
+  var award = document.getElementById("award-category").value;
+  if (role==="student"){
+    <StudentDocs />
+  }  
+}
   // const bgColor = useColorModeValue('gray.50', 'whiteAlpha.50');
   const secondaryTextColor = 'black';
   return (
@@ -51,16 +59,36 @@ const Details = () => {
         <GridItem colSpan={2}>
           <FormControl>
             <FormLabel textColor={secondaryTextColor} >Select your Role</FormLabel>
-            <Select>
+            <Select id="applicant-role">
               <option value="ug-student">UG Student</option>
               <option value="pg-student">PG Student</option>
               <option value="teacher">Teaching Faculty</option>
               <option value="scholar">Research Scholar</option>
             </Select>
           </FormControl>
+
+          <FormLabel textColor={secondaryTextColor} >Select Award Category</FormLabel>
+            <Select id="award-category">
+              <option value="research-N">Research Excellence National</option>
+              <option value="research-R">Research Excellence Regional</option>
+              <option value="academic-N">Academic Excellence National</option>
+              <option value="academic-R">Academic Excellence Regional</option>
+              <option value="industry">Industry Excellence</option>
+              <option value="startup">Startup Excellence</option>
+            </Select>
         </GridItem>
         <GridItem>
           <CommonDocs />
+          {
+            var role = document.getElementById("applicant-role").value;
+            var award = document.getElementById("award-category").value;
+            if (role==="student"){
+              <StudentDocs />
+            }  
+          }
+
+          <StudentDocs />
+          <TeacherDocs />
         </GridItem>
         <GridItem colSpan={2}>
           <Checkbox defaultChecked>I have checked all the details. I confirm that the details are true and I have uploaded all the documents.</Checkbox>
