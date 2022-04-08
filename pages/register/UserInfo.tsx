@@ -12,10 +12,11 @@ import {
   Button,
   useColorModeValue,
 } from '@chakra-ui/react';
+import CommonDocs from './CommonDocs.js';
 
 const Details = () => {
   // const bgColor = useColorModeValue('gray.50', 'whiteAlpha.50');
-  const secondaryTextColor = 'gray.400';
+  const secondaryTextColor = 'black';
   return (
     <VStack w="full" h="full" p={10} spacing={10} alignItems="flex-start" >
       <VStack spacing={3} alignItems="flex-start">
@@ -57,6 +58,9 @@ const Details = () => {
               <option value="scholar">Research Scholar</option>
             </Select>
           </FormControl>
+        </GridItem>
+        <GridItem>
+          <CommonDocs />
         </GridItem>
         <GridItem colSpan={2}>
           <Checkbox defaultChecked>I have checked all the details. I confirm that the details are true and I have uploaded all the documents.</Checkbox>

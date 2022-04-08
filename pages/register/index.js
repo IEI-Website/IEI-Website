@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="title" content="IEI-BLC FCRIT" />
 
       </Head>
-      <VideoBackground />
+      {/* <VideoBackground /> */}
       <Header/>
       <Center  fontSize="6xl" fontWeight="bold" color="white">
         Registration
