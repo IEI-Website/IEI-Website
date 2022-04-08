@@ -13,6 +13,7 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 import CommonDocs from './CommonDocs.js';
+import AwardCategories from './components/AwardCategories.js';
 import ResearchRolesNational from './components/ResearchRolesNational.js';
 import StudentDocs from './Research-Excellence/Students.js';
 import TeacherDocs from './Research-Excellence/Teachers.js';
@@ -66,22 +67,17 @@ const Details = () => {
         </GridItem>
 
         <GridItem colSpan={2}>
-          <FormControl>
-            <FormLabel textColor={secondaryTextColor} >Select Award Category</FormLabel>
-            <Select id="award-category">
-              <option value="research-N">Research Excellence National</option>
-              <option value="research-R">Research Excellence Regional</option>
-              <option value="academic-N">Academic Excellence National</option>
-              <option value="academic-R">Academic Excellence Regional</option>
-              <option value="industry">Industry Excellence</option>
-              <option value="startup">Startup Excellence</option>
-            </Select>
-          </FormControl>
-          <ResearchRolesNational />
+          <AwardCategories/>
         </GridItem>
+        <br/>
 
-        <GridItem id="UploadDocs">
+        <GridItem id="SelectOptions" colSpan={2}>
         </GridItem>
+        <br/>
+
+        <GridItem id="UploadDocs" colSpan={2}>
+        </GridItem>
+        <br/>
 
         <GridItem colSpan={2}>
           <Checkbox defaultChecked>I have checked all the details. I confirm that the details are true and I have uploaded all the documents.</Checkbox>
