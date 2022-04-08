@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import {Center} from "@chakra-ui/react";
+import {Center, FormControl, FormLabel, Input, VStack} from "@chakra-ui/react";
 import VideoBackground from '../components/VideoBackground';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-
+import { Main } from 'next/document';
+import Details from './UserInfo.tsx';
 export default function Home() {
   return (
     <div>
@@ -28,6 +29,7 @@ export default function Home() {
         Awards for academic excellence
       </Center>
       <br/><br/><br/>
+      <Details />
       <Footer/>
     </div>
   )
