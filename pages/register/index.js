@@ -5,7 +5,7 @@ import VideoBackground from '../components/VideoBackground';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Main } from 'next/document';
-import Details from './UserInfo.tsx';
+import Details from './UserInfo.js';
 export default function Home() {
   return (
     <div>

@@ -1,12 +1,6 @@
 import React from 'react';
 import {
-  FormControl,
-  FormLabel,
-  Input,
-  FormErrorMessage,
-  Button,
-  ButtonGroup,
-  FormHelperText,
+  FormControl
 } from '@chakra-ui/react'
 import UploadFile from './components/UploadFile.js';
 
