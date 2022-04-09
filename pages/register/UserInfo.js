@@ -75,9 +75,7 @@ const Details = () => {
         </GridItem>
 
         <GridItem colSpan={2}>
-          <Button size="lg" w="full">
-            Submit
-          </Button>
+          
         </GridItem>
 
       </SimpleGrid>
