@@ -10,6 +10,7 @@ import Link from 'next/link';
 const researchExcellence = () => {
     return (
         <div>
+            <Header/>
             <Text fontSize="3xl" fontWeight="bold" color="black" marginStart={"300"}>
      1. Research Excellence (National/Regional)
       </Text>
@@ -108,6 +109,7 @@ const researchExcellence = () => {
       <Text  fontWeight="normal" color="black" marginStart={"350"}>
       Same as above</Text>
       </Text>
+      <Footer/>
         </div>
     );
 };

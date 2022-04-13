@@ -9,6 +9,7 @@ import Link from 'next/link';
 const academicExcellence = () => {
     return (
         <div>
+          <Header/>
             <Text fontSize="3xl" fontWeight="bold" color="black" marginStart={"300"}>
       Academic Excellence (National/Regional)
       </Text>
@@ -142,6 +143,7 @@ The Institute should have at least five branches with minimum 300 students on ro
       -Any other achievements.<br/></Text>
 
       </Text>
+      <Footer/>
         </div>
     );
 };

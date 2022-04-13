@@ -10,6 +10,7 @@ import Link from 'next/link';
 const startupExcellence = () => {
     return (
         <div>
+            <Header/>
             <Text  fontSize="xl" color="black" marginStart={"350"}>
       <Text fontSize="3xl" fontWeight="bold" color="black" marginStart={"-50"}>
       Start-up Excellence Award
@@ -41,6 +42,7 @@ const startupExcellence = () => {
       Kindly provide detailed relevant information with adequate proofs which may be web-link or other references. Photos of the information printed in newspaper or magazine can be uploaded to support the text filled in the Nomination Form.<br/><br/>
       </Text>
       </Text>
+      <Footer/>
         </div>
     );
 };

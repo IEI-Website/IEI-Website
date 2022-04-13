@@ -11,7 +11,7 @@ import Link from 'next/link';
 const generalInstructions = () => {
     return (
         <div>
-
+<Header/>
       <Text color="black" >
       <Center fontWeight="bold" color="black" fontSize="2xl">
       Information Required from the Nominees <br/></Center>
@@ -55,7 +55,7 @@ const generalInstructions = () => {
       </Text>
 </Text>
       </Text>
-
+      <Footer/>
         </div>
     );
 };

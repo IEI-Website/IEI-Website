@@ -66,7 +66,9 @@ export default function Home() {
       </Link>
       </Text>
       <br/>
-
+      <br/>
+      <br/>
+      <br/>
       
       <Footer/>
     </div>
