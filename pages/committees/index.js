@@ -15,17 +15,17 @@ export default function Home() {
       </Head>
       <VideoBackground />
       <Header/>
-      <Center  fontSize="6xl" fontWeight="bold" color="white">
+      <Center  fontSize="6xl" fontWeight="bold" color="black">
         Committees
       </Center>
       <br/>
       <br/>
       
-      <Center  fontSize="2xl" fontWeight="bold" color="white">
+      <Center  fontSize="2xl" fontWeight="bold" color="black">
       Advisory Committee
       </Center>
        <br/>
-      <Text marginStart={"200"}color="white">
+      <Text marginStart={"200"}color="black">
       <Text fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Dr. M. B. Dagaonkar                         Rev. Fr. Saturnino Almeida          </pre></Text> 
       <pre>Past Council Member, IEI and Past Chairman IEI MSC                Regional Superior and Managing Director, ATEC, Vashi.                      </pre> 
       <br/>
@@ -52,55 +52,55 @@ export default function Home() {
       </Text>
       <br/>
       <br/>
-      <Center  fontSize="2xl" fontWeight="bold" color="white">
+      <Center  fontSize="2xl" fontWeight="bold" color="black">
       Faculty In-Charge
       </Center>
       <br/>
-      <Center  fontSize="2xl" fontWeight="bold" color="white">
+      <Center  fontSize="2xl" fontWeight="bold" color="black">
       Venue
       </Center>
       <br/>
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Dr. Mini .N (Elec)-Chair</Center>
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Mr. Abhishek (Elec)</Center> 
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Ms. Smitha R (IT)</Center> 
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Mr. Vipin Sawant (Elec)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Dr. Mini .N (Elec)-Chair</Center>
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Abhishek (Elec)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Ms. Smitha R (IT)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Vipin Sawant (Elec)</Center> 
       <br/><br/><br/>
-      <Center  fontSize="2xl" fontWeight="bold" color="white">
+      <Center  fontSize="2xl" fontWeight="bold" color="black">
       Publicity
       </Center>
       <br/>
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Dr. Aqleem (Mech)-Chair</Center>
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Mr. Mritunjay (Comp)</Center> 
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Ms. Ruchi (Elec)</Center> 
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Mr. Sandeep (Mech)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Dr. Aqleem (Mech)-Chair</Center>
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Mritunjay (Comp)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Ms. Ruchi (Elec)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Sandeep (Mech)</Center> 
       <br/><br/><br/>
-      <Center  fontSize="2xl" fontWeight="bold" color="white">
+      <Center  fontSize="2xl" fontWeight="bold" color="black">
       Registration & finance
       </Center>
       <br/>
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Dr. Jyoti More(Comp)-Chair</Center>
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Ms. Rupali D (IT)</Center> 
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Ms. Anitha J (EXTC)</Center> 
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Mr. Pramod More (Comp)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Dr. Jyoti More(Comp)-Chair</Center>
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Ms. Rupali D (IT)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Ms. Anitha J (EXTC)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Pramod More (Comp)</Center> 
       <br/><br/><br/>
-      <Center  fontSize="2xl" fontWeight="bold" color="white">
+      <Center  fontSize="2xl" fontWeight="bold" color="black">
       Scrutiny (Internal and IEI members)
       </Center>
       <br/>
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Ms. Megha K (EXTC)-Chair</Center>
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Dr. Anant K (EXTC)</Center> 
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Dr. Sanjay R (Mech)</Center> 
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Dr. Pritha (HUM)</Center> 
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Mr. Prashant (EXTC)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Ms. Megha K (EXTC)-Chair</Center>
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Dr. Anant K (EXTC)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Dr. Sanjay R (Mech)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Dr. Pritha (HUM)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Prashant (EXTC)</Center> 
       <br/><br/><br/>
-      <Center  fontSize="2xl" fontWeight="bold" color="white">
+      <Center  fontSize="2xl" fontWeight="bold" color="black">
       Hospitality and media
       </Center>
       <br/>
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Ms. Archana (IT)-Chair</Center>
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Mr. Rahul J (Comp)</Center> 
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Mr. Kamlesh (Mech)</Center> 
-      <Center color="white" fontWeight={"bold"} fontSize="2xl">Mr. Biony Alex (IT)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Ms. Archana (IT)-Chair</Center>
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Rahul J (Comp)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Kamlesh (Mech)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Biony Alex (IT)</Center> 
       <br/>
       
       <br/><br/><br/>

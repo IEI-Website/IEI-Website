@@ -15,20 +15,20 @@ export default function Home() {
       </Head>
       <VideoBackground />
       <Header/>
-      <Center  fontSize="6xl" fontWeight="bold" color="white">
+      <Center  fontSize="6xl" fontWeight="bold" color="black">
       Award Categories
       </Center>
       <br/>
       <br/>
-      <Text fontSize="3xl" fontWeight="bold" color="white" marginStart={"300"}>
+      <Text fontSize="3xl" fontWeight="bold" color="black" marginStart={"300"}>
      1. Research Excellence (National/Regional)
       </Text>
       <br/>
-      <Text  fontSize="xl" color="white" marginStart={"350"}>
+      <Text  fontSize="xl" color="black" marginStart={"350"}>
       <Text  fontSize="2xl" fontWeight="bold">
       (a)	Students <br/>
       </Text>
-      <Text  fontSize="xl" color="white" marginStart={"50"}>
+      <Text  fontSize="xl" color="black" marginStart={"50"}>
          -	Students (UG) <br/>
          -	Students (PG)<br/>
          -	Students (PhD)<br/>
@@ -54,20 +54,21 @@ export default function Home() {
       <br/>
       <br/>
       <br/>
-      
-      <Text  fontSize="2xl"color="white" marginStart={"350"} fontWeight="bold">
+      <Text  fontSize="xl" color="black" marginStart={"350"}>
+      <Text  fontSize="2xl" fontWeight="bold" color="black" marginStart={"350"}>
       (b)	Teaching Faculty <br/>
       </Text>
-      <Text  fontSize="xl" color="white" marginStart={"350"}>
+      <Text fontWeight="normal"   color="black" marginStart={"350"}>
       Entry Level Criteria:<br/>
           ●	Faculty should be Doctorate in his/her discipline <br/>
           ●	The research carried out must be at the affiliated Institute and should not be the PhD research <br/>
           ●	This award is NOT for the overall career research but is for particular research that has been recently completed or on the verge of completion. <br/>
-          (Please provide data for last three years)<br/> <br/>
+          (Please provide data for last three years)<br/> <br/></Text>
 
-      <Text fontSize="3xl"  fontWeight="bold">
+      <Text fontSize="3xl"  fontWeight="bold" color="black" marginStart={"350"}>
       Document to be uploaded as a single .pdf  
       </Text>
+      <Text fontWeight="normal" fontSize="xl" color="black" marginStart={"350"}>
       1. Research Narration document* (Limit 200 words)<br/>
       2. A PPT comprising of Research work concisely ( Max of 10 slides)<br/>
       3. Publications  <br/>
@@ -77,12 +78,12 @@ export default function Home() {
       6.Conference paper presentation certificates if any <br/>
       7. Research and consultancy project details if any <br/>
       8.  Any other achievement (prizes, award received) <br/>
-      9. Research promotion activities if any (Endorsement letter by HOD) <br/>
+      9. Research promotion activities if any (Endorsement letter by HOD) <br/></Text>
       </Text>
       <br/>
       <br/>
       <br/>
-      <Text  fontSize="xl" color="white" marginStart={"350"}>
+      <Text  fontSize="xl" color="black" marginStart={"350"}>
       <Text  fontSize="2xl" fontWeight="bold">
       (c)	Researcher from Industry <br/>
       </Text>
@@ -106,23 +107,24 @@ export default function Home() {
       <br/>
       <br/>
       <br/>
-      <Text  fontSize="xl" color="white" marginStart={"350"}>
-      <Text  fontSize="2xl" fontWeight="bold">
+      <Text  fontSize="xl" color="black" marginStart={"350"}>
+      <Text  fontSize="2xl" color="black" marginStart={"350"} fontWeight="bold">
       (d)	Researcher from Govt. Organization <br/>
       </Text><br/>
-      <Text fontSize="3xl"  fontWeight="bold">
+      <Text fontSize="3xl" color="black" marginStart={"350"}  fontWeight="bold">
       Document to be uploaded as a single .pdf  
       </Text>
       <br/>
-      Same as above
+      <Text  fontWeight="normal" color="black" marginStart={"350"}>
+      Same as above</Text>
       </Text>
       <br/>
       <br/>
-      <Text fontSize="3xl" fontWeight="bold" color="white" marginStart={"300"}>
+      <Text fontSize="3xl" fontWeight="bold" color="black" marginStart={"300"}>
      2. Academic Excellence (National/Regional)
       </Text>
       <br/>
-      <Text  fontSize="xl" color="white" marginStart={"350"}>
+      <Text  fontSize="xl" color="black" marginStart={"350"}>
       <Text  fontSize="2xl" fontWeight="bold">
       (a)	Students <br/>
       </Text>
@@ -142,7 +144,7 @@ export default function Home() {
       <br/>
       <br/>
       <br/>
-      <Text  fontSize="xl" color="white" marginStart={"350"}>
+      <Text  fontSize="xl" color="black" marginStart={"350"}>
       <Text  fontSize="2xl" fontWeight="bold">
       (b)	Teaching Faculty <br/>
       </Text>
@@ -168,7 +170,7 @@ export default function Home() {
       <br/>
       <br/>
       <br/>
-      <Text  fontSize="xl" color="white" marginStart={"350"}>
+      <Text  fontSize="xl" color="black" marginStart={"350"}>
       <Text  fontSize="2xl" fontWeight="bold">
       (c)	Head of the Department <br/>
       </Text>
@@ -190,7 +192,7 @@ export default function Home() {
       <br/>
       <br/>
       <br/>
-      <Text  fontSize="xl" color="white" marginStart={"350"}>
+      <Text  fontSize="xl" color="black" marginStart={"350"}>
       <Text  fontSize="2xl" fontWeight="bold">
       (d)	Principal/Director <br/>
       </Text><br/>
@@ -218,21 +220,22 @@ export default function Home() {
       <br/>
       <br/>
       <br/>
-      <Text  fontSize="xl" color="white" marginStart={"350"}>
-      <Text  fontSize="2xl" fontWeight="bold">
+      <Text  fontSize="xl" color="black" marginStart={"350"}>
+      <Text  fontSize="2xl" fontWeight="bold"color="black" >
       (e)	Institute <br/>
       </Text><br/>
+      <Text color="black" fontWeight="normal">
       Entry level criteria<br/>
 The nomination can be filed by Dean Academics or Principal of the AICTE affiliated Institute. <br/>
 The Institute should have at least three graduated batches. <br/>
 The Institute should have at least five branches with minimum 300 students on roll.<br/>
-(Please provide data for last three years) 
+(Please provide data for last three years) </Text>
 <br/><br/>
 
-      <Text fontSize="3xl"  fontWeight="bold">
+      <Text fontSize="3xl"  fontWeight="bold" color="black">
       Document to be uploaded as a single .pdf  
       </Text>
-      
+      <Text color="black" fontWeight={"normal"}>
       -Ranking under different schemes like NIRF<br/>  
       -NBA status  <br/>
       -NAAC status  <br/>
@@ -247,51 +250,53 @@ The Institute should have at least five branches with minimum 300 students on ro
       -Any educational reforms at institute level. <br/>
       -How Library facility/ e-resources were extended to students during pandemic period.<br/>
       -Any faculty/student encouragement policy. <br/>
-      -Any other achievements.<br/>
+      -Any other achievements.<br/></Text>
 
       </Text>
       <br/>
       <br/>
       <br/>
-      <Text fontSize="3xl" fontWeight="bold" color="white" marginStart={"300"}>
-     3. Industry Excellence 
+      <Text  fontSize="xl" color="black" marginStart={"350"}>
+      <Text fontSize="3xl" fontWeight="bold" color="black" marginStart={"-50"}>
+      3. Industry Excellence Award
       </Text>
-      <br/>
-      <Text  fontSize="xl" color="white" marginStart={"350"}>
-      
-        Contribution towards Education <br/>
-        Contribution towards Technology development<br/>
-        Contribution towards society<br/>
-        (Please provide data for last three years)<br/>
-
-       <br/><br/>
-      <Text fontSize="3xl"  fontWeight="bold">
-      Document to be uploaded as a single .pdf  
-      </Text>
-      -Any tie-up with any academic Institute in the form of academic guidance, project guidance, industry visit, or sponsorship<br/>
-      -Laboratory development at any academic Institute<br/>
-      Kindly provide detailed relevant information with adequate proofs which may be web-link or other references. Photos of the information printed in newspaper or magazine can be uploaded to support the text filled in the Nomination Form.<br/>
-
-
-      </Text>
-      <br/>
-      <br/>
-      <br/>
-      <Text fontSize="3xl" fontWeight="bold" color="white" marginStart={"300"}>
-     4. Start-up Excellence Award
-      </Text>
-      <br/>
-      <Text  fontSize="xl" color="white" marginStart={"350"}>
-      
+      <Text color="black" fontSize="xl"  fontWeight="normal">
+      Contribution towards Education <br/>
       Contribution towards Technology development<br/>
       Contribution towards society<br/>
       (Please provide data for last three years)<br/>
-
+      </Text>
 
        <br/><br/>
       <Text fontSize="3xl"  fontWeight="bold">
       Document to be uploaded as a single .pdf  
       </Text>
+      <Text color="black" fontSize="xl" fontWeight={"normal"}>
+      -Any tie-up with any academic Institute in the form of academic guidance, project guidance, industry visit, or sponsorship<br/>
+      -Laboratory development at any academic Institute<br/>
+      Kindly provide detailed relevant information with adequate proofs which may be web-link or other references. Photos of the information printed in newspaper or magazine can be uploaded to support the text filled in the Nomination Form.<br/>
+      </Text>
+      </Text>
+      <br/>
+      <br/>
+      <br/>
+      
+      <br/>
+      <Text  fontSize="xl" color="black" marginStart={"350"}>
+      <Text fontSize="3xl" fontWeight="bold" color="black" marginStart={"-50"}>
+     4. Start-up Excellence Award
+      </Text>
+      <Text color="black" fontSize="xl"  fontWeight="normal">
+      Contribution towards Technology development<br/>
+      Contribution towards society<br/>
+      (Please provide data for last three years)<br/></Text>
+
+
+       <br/>
+      <Text fontSize="3xl"  fontWeight="bold">
+      Document to be uploaded as a single .pdf  
+      </Text>
+      <Text color="black" fontSize="xl"  fontWeight="normal">
       -Year of Establishment<br/>
       -Names of Founders / Cofounders<br/>
       -Start-up - DPIIT Recognition<br/>
@@ -306,6 +311,7 @@ The Institute should have at least five branches with minimum 300 students on ro
       -Website URL<br/>
 
       Kindly provide detailed relevant information with adequate proofs which may be web-link or other references. Photos of the information printed in newspaper or magazine can be uploaded to support the text filled in the Nomination Form.<br/><br/>
+      </Text>
       </Text>
       <br/><br/><br/>
       <Footer/>

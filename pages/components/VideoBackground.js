@@ -34,7 +34,7 @@ export default function VideoBackground() {
           position="fixed"
           controls={false}
           muted
-          src="globe.mp4"
+          src=""
           objectFit="cover"
         />
       )}
