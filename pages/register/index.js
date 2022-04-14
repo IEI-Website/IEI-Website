@@ -1,33 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import {Center, FormControl, FormLabel, Input, VStack, Button} from "@chakra-ui/react";
-import VideoBackground from '../components/VideoBackground';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Main } from 'next/document';
-import Details from './UserInfo.js';
+import Details from './UserDetails.js';
+import axios from 'axios';
 export default function Home() {
-//   const handleSubmit = () => inputRef.current?.click()
-
-//   return (
-//       <InputGroup onClick={handleClick}>
-//         <input
-//           type={'file'}
-//           multiple={multiple || false}
-//           hidden
-//           accept={accept}
-//           {...rest}
-//           ref={(e) => {
-//             ref(e)
-//             inputRef.current = e
-//           }}
-//         />
-//         <>
-//           {children}
-//         </>
-//       </InputGroup>
-//   )
-// }
+  
   return (
     <div>
       <Head>
@@ -35,7 +15,6 @@ export default function Home() {
         <meta name="title" content="IEI-BLC FCRIT" />
 
       </Head>
-      {/* <VideoBackground /> */}
       <Header/>
       <Center  fontSize="6xl" fontWeight="bold" color="white">
         Registration
@@ -50,15 +29,11 @@ export default function Home() {
         Awards for academic excellence
       </Center>
       <br/><br/><br/>
-      <form action='fileupload' method="post" encType="multipart/form-data">
       <FormControl >
-          <Details />
-          <Button type="submit" size="lg" w="full" >
-            Submit
-          </Button>
-      </FormControl>
-      </form>
-      <Footer/>
+          <Details id="details" />
+      </FormControl>    
+    <Footer/>
     </div>
+
   )
 }
