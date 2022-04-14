@@ -40,15 +40,19 @@ export default function VideoBackground() {
       )}
       {poster && (
         <Box
-          w="100%"
-          h="100vh"
-          as="img"
-          display={{ base: "block", md: "none" }}
-          zIndex="-1"
-          bg="black"
-          position="fixed"
-          src="globe.jpg"
-          objectFit="cover"
+        w="100%"
+        h="100vh"
+        as="video"
+        id="videoBackground"
+        display={{ base: "none", md: "block" }}
+        autoPlay={true}
+        loop
+        zIndex="-1"
+        position="fixed"
+        controls={false}
+        muted
+        src=""
+        objectFit="cover"
         />
       )}
     </>

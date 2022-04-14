@@ -15,14 +15,40 @@ export default function Home() {
       </Head>
       <VideoBackground />
       <Header/>
-      <Center  fontSize="6xl" fontWeight="bold" color="black">
-        Committees
+      <Center  fontSize="5xl" fontWeight="bold" color="black">
+      Committees
+      </Center><br/>
+      <Center  fontSize="3xl" fontWeight="bold" color="black"><pre fontWeight="bold">
+      Chair, IEI BLC FCRIT Excellence Award</pre>
+      </Center><br/>
+      <Center  fontSize="2xl" fontWeight="bold" color="black"><pre fontWeight="bold">
+      Dr. Nilaj Deshmukh</pre>
+      </Center>
+      <Center  fontSize="2xl" fontWeight="bold" color="black"><pre fontWeight="bold">
+      Managing Committee Member, (IEI BLC)</pre>
+      </Center>
+      <Center  fontSize="2xl" fontWeight="bold" color="black"><pre fontWeight="bold">
+      Dean (Faculty) and Head (Mech),</pre>
+      </Center>
+      <Center  fontSize="2xl" fontWeight="bold" color="black"><pre fontWeight="bold">
+      FCRIT, Vashi</pre>
+      </Center>
+      <br/>
+      <br/>
+      <Center  fontSize="3xl" fontWeight="bold" color="black"><pre fontWeight="bold">
+      Co-Chair, IEI BLC FCRIT Excellence Award</pre>
+      </Center><br/>
+      <Center  fontSize="2xl" fontWeight="bold" color="black" ><pre fontWeight="bold">
+      Mrs. M. Kiruthika</pre>
+      </Center>
+      <Center  fontSize="2xl" fontWeight="bold" color="black" ><pre fontWeight="bold">
+Associate Professor, Comp. Engg. Dept., FCRIT, Vashi</pre>
       </Center>
       <br/>
       <br/>
       
-      <Center  fontSize="2xl" fontWeight="bold" color="black">
-      Advisory Committee
+      <Center  fontSize="3xl" fontWeight="bold" color="black"><pre fontWeight="bold">
+      Advisory Committee</pre>
       </Center>
        <br/>
       <Text marginStart={"200"}color="black">
@@ -32,7 +58,7 @@ export default function Home() {
       <Text fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Cdr. Dr. Bhaskar Bhandarkar                 Dr. S. M. Khot         </pre></Text> 
       <pre>IEI Council Member                                                Principal, FCRIT Vashi                      </pre> 
       <br/>
-      <Text fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Er. Vijay C. Kamble                         Dr. Milind Shah           </pre></Text> 
+      <Text fontWeight={"bold"}  fontSize="2xl"><pre fontWeight="bold">Er. Vijay C. Kamble                         Dr. Milind Shah           </pre></Text> 
       <pre>Hon. Secretary IEI MSC                                            Dean (Academics) and Head, EXTC Engg. Dept.<br/>                                                                  FCRIT Vashi.                     </pre> 
       <br/>
       <Text fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Dr. Kishanrao M. Godbole                    Dr. Lata Ragha           </pre></Text> 
@@ -52,55 +78,55 @@ export default function Home() {
       </Text>
       <br/>
       <br/>
-      <Center  fontSize="2xl" fontWeight="bold" color="black">
-      Faculty In-Charge
+      <Center  fontSize="2xl" fontWeight="bold" color="black"><pre fontWeight="bold">
+      Faculty In-Charge</pre>
       </Center>
       <br/>
-      <Center  fontSize="2xl" fontWeight="bold" color="black">
-      Venue
+      <Center  fontSize="2xl" fontWeight="bold" color="black"><pre fontWeight="bold">
+      Venue</pre>
       </Center>
       <br/>
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Dr. Mini .N (Elec)-Chair</Center>
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Abhishek (Elec)</Center> 
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Ms. Smitha R (IT)</Center> 
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Vipin Sawant (Elec)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Dr. Mini .N (Elec)-Chair</pre></Center>
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Mr. Abhishek (Elec)</pre></Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Ms. Smitha R (IT)</pre></Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Mr. Vipin Sawant (Elec)</pre></Center> 
       <br/><br/><br/>
-      <Center  fontSize="2xl" fontWeight="bold" color="black">
-      Publicity
+      <Center  fontSize="2xl" fontWeight="bold" color="black"><pre fontWeight="bold">
+      Publicity</pre>
       </Center>
       <br/>
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Dr. Aqleem (Mech)-Chair</Center>
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Mritunjay (Comp)</Center> 
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Ms. Ruchi (Elec)</Center> 
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Sandeep (Mech)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Dr. Aqleem (Mech)-Chair</pre></Center>
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Mr. Mritunjay (Comp)</pre></Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Ms. Ruchi (Elec)</pre></Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Mr. Sandeep (Mech)</pre></Center> 
       <br/><br/><br/>
-      <Center  fontSize="2xl" fontWeight="bold" color="black">
-      Registration & finance
+      <Center  fontSize="2xl" fontWeight="bold" color="black"><pre fontWeight="bold">
+      Registration & finance</pre>
       </Center>
       <br/>
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Dr. Jyoti More(Comp)-Chair</Center>
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Ms. Rupali D (IT)</Center> 
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Ms. Anitha J (EXTC)</Center> 
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Pramod More (Comp)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Dr. Jyoti More(Comp)-Chair</pre></Center>
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Ms. Rupali D (IT)</pre></Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Ms. Anitha J (EXTC)</pre></Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Mr. Pramod More (Comp)</pre></Center> 
       <br/><br/><br/>
-      <Center  fontSize="2xl" fontWeight="bold" color="black">
-      Scrutiny (Internal and IEI members)
+      <Center  fontSize="2xl" fontWeight="bold" color="black"><pre fontWeight="bold">
+      Scrutiny (Internal and IEI members)</pre>
       </Center>
       <br/>
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Ms. Megha K (EXTC)-Chair</Center>
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Dr. Anant K (EXTC)</Center> 
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Dr. Sanjay R (Mech)</Center> 
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Dr. Pritha (HUM)</Center> 
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Prashant (EXTC)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Ms. Megha K (EXTC)-Chair</pre></Center>
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Dr. Anant K (EXTC)</pre></Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Dr. Sanjay R (Mech)</pre></Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Dr. Pritha (HUM)</pre></Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Mr. Prashant (EXTC)</pre></Center> 
       <br/><br/><br/>
-      <Center  fontSize="2xl" fontWeight="bold" color="black">
-      Hospitality and media
+      <Center  fontSize="2xl" fontWeight="bold" color="black"><pre fontWeight="bold">
+      Hospitality and media</pre>
       </Center>
       <br/>
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Ms. Archana (IT)-Chair</Center>
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Rahul J (Comp)</Center> 
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Kamlesh (Mech)</Center> 
-      <Center color="black" fontWeight={"bold"} fontSize="2xl">Mr. Biony Alex (IT)</Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Ms. Archana (IT)-Chair</pre></Center>
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Mr. Rahul J (Comp)</pre></Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Mr. Kamlesh (Mech)</pre></Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Mr. Biony Alex (IT)</pre></Center> 
       <br/>
       
       <br/><br/><br/>

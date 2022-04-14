@@ -16,33 +16,67 @@ export default function Home() {
       <VideoBackground />
       <Header/>
       <Center  fontSize="5xl" fontWeight="bold" color="black">
-        About IEI-BLC FCRIT 
+        About Page 
+      </Center><br/>
+      <Center  fontSize="4xl" fontWeight="bold" color="black">
+        About IEI-BLC FCRIT Awards 
       </Center>
       <br/>
-      <Text fontSize="3xl" fontWeight="bold" color="black" marginStart={"300"}>
-      IEI YOUNG ENGINEERS AWARD 2022-2023
+      <Text marginStart={"50"} fontSize="2xl">
+      It is with great pleasure that Fr. C. Rodrigues Institute of Technology in
+      collaboration with The Institute of Engineers, India – Belapur Local Centre is
+      announcing the IEI BLC – FCRIT Excellence Awards – 2022. The objective of
+      the award ceremony is to recognize and appreciate the excellence of
+      Academicians and Industry professionals in their respective domains. We are
+      glad to inform that IEI BLC – FCRIT Excellence Awards organized in the
+      years 2019 and 2021 received overwhelming responses and have been very
+      successful. 
+      </Text><br/>
+      <Center  fontSize="4xl" fontWeight="bold" color="black">
+        About The Institution of Engineers (India)  
+      </Center>
+      <br/>
+      <Text marginStart={"50"} fontSize="2xl">
+      The Institution of Engineers (India) [IEI] is the largest multidisciplinary
+      professional body of engineers, established in 1920 with its Headquarters
+      located in Kolkata and incorporated under Royal Charter on 9th September,
+      1935 by the then His Majesty of King George V. The Royal Charter endowed
+      the Institution with the responsibility to promote the general advancement of
+      engineering amongst its members and persons attached to the Institution. After
+      Independence, the Institution is a “Body Corporate” protected under Article
+      372 of the Constitution of India
+      </Text><br/>
+      <Center  fontSize="4xl" fontWeight="bold" color="black">
+        About IEI-Belapur Local Center
+      </Center>
+      <br/>
+      <Text marginStart={"50"} fontSize="2xl">
+      The Council of IEI set up Belapur Local Centre (BLC) in May 1994. Ever
+      since its inception, BLC is vibrant with active participation from its office
+      bearers and ever-increasing members. BLC is situated in a 1000 Sq. Meters plot
+      in Sector 15, Central Business District (CBD), close to Belapur Railway Station
+      in Navi Mumbai. BLC Building was designed by the reputed architects, M/s.
+      Shashi Prabhu & Associates and M/s. Sopan Parbhu Architect. It consists of
+      stilt with 5 floors at estimated cost of Rs.100 lakhs (as of 1994). At present,
+      IEIBLC has 3687 members comprising of engineers from 15 Divisions.
+
       </Text>
       <br/>
-      <Text>
-      The Institution of Engineers (India) is a multi-disciplinary professional body of engineers with 15 engineering disciplines and over 9,00,000
-members in India and abroad. The Institution was established in 1920 and was incorporated by Royal Charter in 1935. It has been in the forefront
-of engineering profession addressing the socio engineering problems for progress of the country. IEI functions among professional engineers,
-academicians, research workers to update their professional knowledge through continuous professional development. With its large international
-linkages and a network of 125 Centres in India and Six Overseas Chapters, the Institution has built up wide reach and large infrastructure to meet
-its objectives of promoting engineering in all aspects.
-With a view to promote the pursuit of excellence in the field of engineering, IEI has instituted ‘IEI Young Engineers Award’. The Award consists of a
-Plaque and a Certificate. The purpose of the Award is to recognize outstanding achievements/contributions made by young engineers in engineering
-research, excellence in engineering technology development, technology transfer, etc. Any engineer citizen of India not older than 35 years of age
-as on March 31, 2022 is eligible for the Award. The IEI Young Engineers Award is presented to awardees for all the 15 Engineering Divisions of the
-IEI during the respective National Conventions. The awardees attending the National Convention will be provided with free accommodation & their
-traveling expenses (AC-3 Tier train fare by shortest route) will be reimbursed on production of original documents.
-The Application Proforma may be downloaded from the link https://www.ieindia.org/webui/IEI-Activities.aspx#young-engineering-awards.
-Soft copy of the filled-in application proforma should be forwarded to award@ieindia.org by May 31, 2022. Further, six copies of the duly filled
-application form, along with all supporting documents, endorsed by appropriate authority should be sent to the below mentioned address so as to
-reach us latest by June 10, 2022:<br/>
-Director (Technical)<br/>
-The Institution of Engineers (India)<br/>
-8 Gokhale Road, Kolkata 700020<br/>
+      <Center  fontSize="4xl" fontWeight="bold" color="black">
+        About FCRIT 
+      </Center>
+      <br/>
+      <Text marginStart={"50"} fontSize="2xl">
+      FCRIT was established in 1994, named after late Rev. Fr. Conceicao
+      Rodrigues. FCRIT persistently seeks and adopts innovative methods to
+      improve the quality of education on a consistent basis. The global standards set
+      at FCRIT in the field of teaching spurs the students in relentless pursuit of
+      excellence. Though its reputation rests mainly on the high quality, value-based
+      technical education that it imparts, it has to its credit a verdant, well-maintained
+      Campus and extensive facilities. Its location in the vicinity of the holy places of
+      various religious denominations underscores its secular credentials and its
+      philosophy of "Vasudhaiva Kuttumbakam". The college prides on being one of
+      few that has accreditation for all five branches.
       </Text>
       <br/><br/><br/>
       <Footer/>

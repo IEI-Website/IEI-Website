@@ -25,9 +25,9 @@ export default function Home() {
       </Center>
       <br/>
       <Center fontSize="4xl" color="black">
-        Awards for academic excellence
+        Awards for academic and research excellence
       </Center>
-      <br/><br/><br/><br/><br/>
+      <br/><br/><br/><br/>
       <Footer/>
     </div>
   )

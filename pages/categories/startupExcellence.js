@@ -12,9 +12,9 @@ const startupExcellence = () => {
         <div>
             <Header/>
             <Text  fontSize="xl" color="black" marginStart={"350"}>
-      <Text fontSize="3xl" fontWeight="bold" color="black" marginStart={"-50"}>
+      <Text fontSize="3xl" fontWeight="bold" color="black" >
       Start-up Excellence Award
-      </Text>
+      </Text><br/>
       <Text color="black" fontSize="xl"  fontWeight="normal">
       Contribution towards Technology development<br/>
       Contribution towards society<br/>

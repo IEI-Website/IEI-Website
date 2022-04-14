@@ -12,7 +12,7 @@ const researchExcellence = () => {
         <div>
             <Header/>
             <Text fontSize="3xl" fontWeight="bold" color="black" marginStart={"300"}>
-     1. Research Excellence (National/Regional)
+      Research Excellence (National/Regional)
       </Text>
       <br/>
       <Text  fontSize="xl" color="black" marginStart={"350"}>
@@ -45,7 +45,7 @@ const researchExcellence = () => {
       <br/>
       <br/>
       <br/>
-      <Text  fontSize="xl" color="black" marginStart={"350"}>
+      <Text  fontSize="xl" color="black" marginStart={""}>
       <Text  fontSize="2xl" fontWeight="bold" color="black" marginStart={"350"}>
       (b)	Teaching Faculty <br/>
       </Text>
@@ -98,7 +98,7 @@ const researchExcellence = () => {
       <br/>
       <br/>
       <br/>
-      <Text  fontSize="xl" color="black" marginStart={"350"}>
+      <Text  fontSize="xl" color="black" marginStart={""}>
       <Text  fontSize="2xl" color="black" marginStart={"350"} fontWeight="bold">
       (d)	Researcher from Govt. Organization <br/>
       </Text><br/>

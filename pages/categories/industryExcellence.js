@@ -12,9 +12,9 @@ const industryExcellence = () => {
         <div>
             <Header/>
             <Text  fontSize="xl" color="black" marginStart={"350"}>
-      <Text fontSize="3xl" fontWeight="bold" color="black" marginStart={"-50"}>
+      <Text fontSize="3xl" fontWeight="bold" color="black">
        Industry Excellence Award
-      </Text>
+      </Text><br/>
       <Text color="black" fontSize="xl"  fontWeight="normal">
       Contribution towards Education <br/>
       Contribution towards Technology development<br/>
