@@ -10,11 +10,8 @@ export default function Footer() {
           ,{" "}
           <Link target="_blank" href="https://github.com/gregbg218">Gregory</Link>
           ,{" "}
-<<<<<<< HEAD
-=======
           <Link target="_blank" href="https://github.com/ChristopherJohnAlappatt">Christopher</Link>
           ,{" "}
->>>>>>> master
           <Link target="_blank" href="https://github.com/kaliappan01">Kaliappan</Link>{" "}
           &{" "}
           <Link target="_blank" href="https://github.com/Farhan-hyd"> Farhan</Link>
