@@ -1,6 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+<<<<<<< HEAD
 import {Center,Text} from "@chakra-ui/react";
+=======
+import {Center} from "@chakra-ui/react";
+>>>>>>> master
 import VideoBackground from '../components/VideoBackground';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -16,6 +20,7 @@ export default function Home() {
       <VideoBackground />
       <Header/>
       <Center  fontSize="6xl" fontWeight="bold" color="white">
+<<<<<<< HEAD
       Award Categories
       </Center>
       <br/>
@@ -307,6 +312,19 @@ The Institute should have at least five branches with minimum 300 students on ro
 
       Kindly provide detailed relevant information with adequate proofs which may be web-link or other references. Photos of the information printed in newspaper or magazine can be uploaded to support the text filled in the Nomination Form.<br/><br/>
       </Text>
+=======
+        Welcome To IEI-BLC FCRIT Awards
+      </Center>
+      <br/>
+      <Center  fontSize="3xl" color="white">
+        <Image src="/fcritlogo.png"width={200} height={200} />
+        <Image src="/iei.png"width={200} height={200} />
+      </Center>
+      <br/>
+      <Center fontSize="4xl" color="white">
+        Awards for academic excellence
+      </Center>
+>>>>>>> master
       <br/><br/><br/>
       <Footer/>
     </div>

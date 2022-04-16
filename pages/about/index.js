@@ -1,6 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+<<<<<<< HEAD
 import {Box, Center,Text} from "@chakra-ui/react";
+=======
+import {Center} from "@chakra-ui/react";
+>>>>>>> master
 import VideoBackground from '../components/VideoBackground';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -19,6 +23,7 @@ export default function Home() {
         About IEI-BLC FCRIT 
       </Center>
       <br/>
+<<<<<<< HEAD
       <Box alignContent={"center"}>
       <Text color={"white"} >
       <Center fontWeight="bold" color="white" fontSize="2xl">
@@ -64,6 +69,16 @@ export default function Home() {
 </Text>
       </Text>
       </Box>
+=======
+      <Center  fontSize="3xl" color="white">
+        <Image src="/fcritlogo.png"width={200} height={200} />
+        <Image src="/iei.png"width={200} height={200} />
+      </Center>
+      <br/>
+      <Center fontSize="4xl" color="white">
+        Awards for academic excellence
+      </Center>
+>>>>>>> master
       <br/><br/><br/>
       <Footer/>
     </div>

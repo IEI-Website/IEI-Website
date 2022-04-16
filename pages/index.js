@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import {Center} from "@chakra-ui/react";
+<<<<<<< HEAD
 import VideoBackground from "../pages/components/VideoBackground";
+=======
+>>>>>>> master
 import Header from "../pages/components/Header";
 import Footer from './components/Footer';
 
@@ -13,7 +16,10 @@ export default function Home() {
         <meta name="title" content="IEI-BLC FCRIT" />
 
       </Head>
+<<<<<<< HEAD
       <VideoBackground />
+=======
+>>>>>>> master
       <Header/>
       <Center  fontSize="6xl" fontWeight="bold" color="white">
         Welcome To IEI-BLC FCRIT Awards
