@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import {Center} from "@chakra-ui/react";
+import {Center,Text} from "@chakra-ui/react";
 import VideoBackground from '../components/VideoBackground';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -15,8 +16,8 @@ export default function Home() {
       </Head>
       <VideoBackground />
       <Header/>
-      <Center  fontSize="6xl" fontWeight="bold" color="white">
-        Welcome To IEI-BLC FCRIT Awards
+      <Center  fontSize="6xl" fontWeight="bold" color="black">
+      Award Categories
       </Center>
       <br/>
       <Center  fontSize="3xl" color="white">
@@ -24,10 +25,55 @@ export default function Home() {
         <Image src="/iei.png"width={200} height={200} />
       </Center>
       <br/>
-      <Center fontSize="4xl" color="white">
-        Awards for academic excellence
-      </Center>
-      <br/><br/><br/>
+      <Text fontSize="3xl" fontWeight="bold" color="black" marginStart={"300"}>
+      <Link href="/categories/generalInstructions">
+      <a>
+     1. General Instructions
+      </a>
+      </Link>
+      </Text>
+      <br/>
+
+      <Text fontSize="3xl" fontWeight="bold" color="black" marginStart={"300"}>
+      <Link href="/categories/researchExcellence">
+      <a>
+     2. Research Excellence (National/Regional)
+      </a>
+      </Link>
+      </Text>
+      <br/>
+     
+      <Text fontSize="3xl" fontWeight="bold" color="black" marginStart={"300"}>
+      <Link href="/categories/academicExcellence">
+      <a>
+      3. Academic Excellence (National/Regional)
+      </a>
+      </Link>
+      </Text>
+      <br/>
+
+    
+      <Text fontSize="3xl" fontWeight="bold" color="black" marginStart={"300"}>
+      <Link href="/categories/industryExcellence">
+      <a>
+      4. Industry Excellence Award
+      </a>
+      </Link>
+      </Text>
+      <br/>
+
+      <Text fontSize="3xl" fontWeight="bold" color="black" marginStart={"300"}>
+      <Link href="/categories/startupExcellence">
+      <a>
+      5. Start-up Excellence Award
+      </a>
+      </Link>
+      </Text>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      
       <Footer/>
     </div>
   )

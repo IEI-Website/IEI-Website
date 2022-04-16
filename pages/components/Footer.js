@@ -2,7 +2,7 @@ import { Flex, Link, Text } from "@chakra-ui/react";
 
 export default function Footer() {
   return (
-    <Flex w="100%" h={{ md: "9vh" }} py="20px" gridGap="2" align="center">
+    <Flex w="100%" h={{ md: "9vh" }} py="20px" gridGap="2" align="center" bg={"telegram.700"}>
       <Flex width="90%" mx="auto" flexDir={["column-reverse", "row", "row", "row"]} align="center" >
         <Text noOfLines={2} flex={2} color="white">
           Developed by{" "}

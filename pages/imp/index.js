@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import {Center} from "@chakra-ui/react";
+import {Center,Text} from "@chakra-ui/react";
 import VideoBackground from '../components/VideoBackground';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
