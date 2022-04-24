@@ -12,6 +12,13 @@ a {
   text-decoration: none;
 }
 
+/* Carousel {
+  position: absolute;
+  left: auto;
+  width: 100px;
+  height: 600px;
+} */
+
 * {
   box-sizing: border-box;
 }
