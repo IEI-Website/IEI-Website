@@ -1,12 +1,21 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import {Center,Box,Text,HStack,VStack} from "@chakra-ui/react";
+import {Center,Flex,Text,HStack,VStack,Box} from "@chakra-ui/react";
 import VideoBackground from "../pages/components/VideoBackground";
 import Header from "../pages/components/Header";
 import Footer from './components/Footer';
 import HCarousel from './components/HCarousel';
 import VCarousel from './components/VCarousel';
+import NavBa from './components/Navba';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Marquee from "react-fast-marquee";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper";
 
+import "swiper/css";
+import "swiper/css/navigation";
+import 'swiper/css/autoplay';
 export default function Home() {
   return (
     <div>
@@ -16,18 +25,42 @@ export default function Home() {
 
       </Head>
       <VideoBackground />
-      <Header/>
-
-      <HStack spacing='30px' marginBottom={50}>
-      <Box width="50%" height="500" marginLeft={2}>
-      <HCarousel/>
+      <div>
+        <Header/>
+        <NavBa />
+      </div>
+     <br/>
+     <Flex>
+     <Flex width={"50%"}>
+        <Carousel >
+          <div>
+              <img src="/1.jpg" alt="image1"/>
+                <p className="legend">Image 1</p>
+          </div>
+          <div>
+            <img src="/2.jpg" alt="image2" />
+            <p className="legend">Image 2</p>
+          </div>
+          <div>
+            <img src="/3.jpg" alt="image3"/>
+                <p className="legend">Image 3</p>
+          </div>
+          <div>
+            <img src="/4.jpg" alt="image4"/>
+            <p className="legend">Image 4</p>
+          </div>
+        </Carousel>
+        </Flex>
+        <Flex color={"white"}> .</Flex>
+      <Flex width={"50%"} >
+      
+      <Box width={"100%"} height={"450px"} boxShadow='outline' p='6' rounded='md'>
+        <Text bgColor={"gray"}>Updates</Text>
+        <Text>Conference will open soon for paper submission. Please stay tune. </Text>  
       </Box>
-      <Box width="46%" height="500" boxShadow='outline' p='6' rounded='md' >
-      <Text bg='blue'>Updates</Text>
-      <VCarousel/>
-      </Box>
-      </HStack>
-    
+      
+      </Flex>
+      </Flex>
       <Center  fontSize="5xl" fontWeight="bold" color="black">
         Welcome To IEI-BLC FCRIT Awards
       </Center>
@@ -41,11 +74,11 @@ export default function Home() {
         Awards for academic and research excellence
       </Center>
       <br/><br/><br/>
-      <VStack spacing='20px'>
+      <VStack spacing='30px'>
       <HStack spacing='30px'>
         <div>
         <Box boxShadow='outline' p='6' marginLeft={6} marginRight={12} rounded='md'>
-      <Center  fontSize="4xl" fontWeight="bold" color="black">
+      <Center  fontSize="3xl" fontWeight="bold" color="black">
       About IEI-BLC FCRIT Awards 
       </Center>
       </Box>
@@ -63,7 +96,7 @@ export default function Home() {
       </div>
       <div>
       <Box boxShadow='outline' p='6' rounded='md' marginRight={6}>
-      <Center  fontSize="4xl" fontWeight="bold" color="black">
+      <Center  fontSize="3xl" fontWeight="bold" color="black">
         About The Institution of Engineers (India)  
       </Center>
       </Box>
@@ -83,7 +116,7 @@ export default function Home() {
       <HStack spacing='30px'>
         <div>
         <Box boxShadow='outline' p='6' rounded='md' marginLeft={6}>
-        <Center  fontSize="4xl" fontWeight="bold" color="black">
+        <Center  fontSize="3xl" fontWeight="bold" color="black">
         About IEI-Belapur Local Center
       </Center>
       </Box>
@@ -104,7 +137,7 @@ export default function Home() {
         
         <div>
         <Box boxShadow='outline' p='6' rounded='md' marginLeft={10} marginRight={6}>
-        <Center  fontSize="4xl" fontWeight="bold" color="black">
+        <Center  fontSize="3xl" fontWeight="bold" color="black">
       About FCRIT 
       </Center>
       </Box>
@@ -125,7 +158,8 @@ export default function Home() {
         </div>
       </HStack>
       </VStack>
-      <br/><br/><br/><br/>
+      <br/>
+      
       <Footer/>
     </div>
   )

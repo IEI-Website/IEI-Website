@@ -6,11 +6,11 @@ import VideoBackground from '../components/VideoBackground';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Link from 'next/link';
-
+import NavBa from '../components/Navba';
 const industryExcellence = () => {
     return (
         <div>
-            <Header/>
+            <Header/><NavBa />
             <Text  fontSize="xl" color="black" marginStart={"350"}>
       <Text fontSize="3xl" fontWeight="bold" color="black">
        Industry Excellence Award

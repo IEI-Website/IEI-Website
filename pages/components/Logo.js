@@ -4,12 +4,7 @@ import Image from 'next/image'
 export default function Logo(props) {
   return (
     <Box {...props}>
-      <Text fontSize="2xl" fontWeight="bold">
-      IEI-BLC FCRIT
-      </Text>
-      
-      
-      
+      <Image src="/iei.png"width={100} height={100} />
     </Box>
   );
 }

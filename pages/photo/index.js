@@ -4,7 +4,7 @@ import {Center} from "@chakra-ui/react";
 import VideoBackground from '../components/VideoBackground';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-
+import NavBa from '../components/Navba';
 export default function Home() {
   return (
     <div>
@@ -14,7 +14,7 @@ export default function Home() {
 
       </Head>
       <VideoBackground />
-      <Header/>
+      <Header/><NavBa />
       <Center  fontSize="6xl" fontWeight="bold" color="white">
         Photo Gallery
       </Center>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, Box, Flex, Text, Button, Stack } from "@chakra-ui/react";
 import Logo from "./Logo";
+import Logos from "./Logos";
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -10,10 +11,17 @@ const NavBar = (props) => {
   return (
     <NavBarContainer {...props}>
       
-      <Logo
-        w="200px"
-        color={["white", "white", "primary.500", "primary.500"]}
-      />
+      <Logo/>
+      {/* <Text fontWeight={"bold"}><p align="center" >IEI</p></Text> */}
+      <div class="main-text" align="center" >
+        <Text marginStart={"100"} fontSize={"2xl"} fontWeight={"bold"} color="black" align={"center"}> The Institution of Engineers (India)  Organises </Text>
+        <Text marginStart={"100"}fontSize={"2xl"} fontWeight={"bold"} color="black" align={"center"}> IEI Excellence Awards 2022</Text>
+        {/* <Text fontWeight={"bold"} color="black" align={"center"}>Vibration Engineering, Science, and Technology (INVEST 22)</Text> */}
+        <Text marginStart={"100"}fontWeight={"bold"} color="black" align={"center"}> ---------------------------------------------------------------------------------------------------------</Text>
+        <Text marginStart={"100"}fontWeight={"bold"} color="black" align={"center"}>Jointly organised by the IEI-BLC & Fr. C. Rodrigues Institute of Technology, Vashi</Text>
+        <Text marginStart={"100"}fontWeight={"bold"} color="black" align={"center"}>     September 15, 2022  </Text>
+      </div>
+      <Logos />
       <MenuToggle toggle={toggle} isOpen={isOpen} />
       <MenuLinks isOpen={isOpen} />
     </NavBarContainer>
@@ -73,14 +81,6 @@ const MenuLinks = ({ isOpen }) => {
         direction={["column", "row", "row", "row"]}
         pt={[4, 4, 0, 0]}
       >
-        <MenuItem to="/">Home</MenuItem>
-        <MenuItem to="/about">About</MenuItem>
-        <MenuItem to="/committees">Committees </MenuItem>
-        <MenuItem to="/categories">Categories </MenuItem>
-        <MenuItem to="/imp">Imp Dates </MenuItem>
-        <MenuItem to="/register">Registration</MenuItem>
-        <MenuItem to="/photo">Photo Gallery</MenuItem>
-
       </Stack>
     </Box>
   );
@@ -96,7 +96,7 @@ const NavBarContainer = ({ children, ...props }) => {
       w="100%"
       mb={8}
       p={8}
-      bg={["primary.500", "primary.500", "telegram.700", "telegram.700"]}
+      bgImg={["bck.jpg"]}
       color={["white", "white", "primary.700", "primary.700"]}
       {...props}
     >

@@ -6,12 +6,12 @@ import VideoBackground from '../components/VideoBackground';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Link from 'next/link';
-
+import NavBa from '../components/Navba';
 
 const generalInstructions = () => {
     return (
         <div>
-<Header/>
+<Header/><NavBa />
       <Text color="black" >
       <Center fontWeight="bold" color="black" fontSize="2xl">
       Information Required from the Nominees <br/></Center>
