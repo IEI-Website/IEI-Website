@@ -119,6 +119,11 @@ Associate Professor, Comp. Engg. Dept., FCRIT, Vashi</pre>
       <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Dr. Sanjay R (Mech)</pre></Center> 
       <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Dr. Pritha (HUM)</pre></Center> 
       <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Mr. Prashant (EXTC)</pre></Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Er. S.P. Singh</pre></Center>
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Er. Prabhakar Phulari</pre></Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Er. Ashish S. Shrivastava</pre></Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Dr. Ajay Sudhir Radke</pre></Center> 
+      <Center color="black" fontWeight={"bold"} fontSize="2xl"><pre fontWeight="bold">Er. Arvind Jadhao</pre></Center> 
       <br/><br/><br/>
       <Center  fontSize="2xl" fontWeight="bold" color="black"><pre fontWeight="bold">
       Hospitality and media</pre>
